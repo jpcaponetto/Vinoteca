@@ -1,0 +1,37 @@
+.target {
+  display: flex;
+  margin: 2rem;
+  width: 560px;
+  min-height: 20rem;
+  border-radius: 1rem;
+  box-shadow: 2px 1px 15px -1px #000000;
+}
+
+.target iframe {
+  position: relative;
+  filter: grayscale(0.9);
+  align-self: center;
+  width: 100%;
+}
+
+.target:hover {
+  transform: scale(1.1);
+  -webkit-transition: 0.2s ease-out;
+  transition: 0.2s ease-out;
+}
+
+.target iframe:hover {
+  filter: grayscale(0);
+  transition-property: all;
+  -webkit-transition: 0.2s;
+  transition: 0.2s;
+}
+.textoNeonRojo {
+  color: #ffffff;
+  text-shadow: 0 0 8px hsl(327, 98%, 17%), 0 0 2px hsl(327, 98%, 17%),
+    0 0 10px #d43f3a, 0 0 6px #d43f3a, 0 0 20px #d43f3a,
+    0 0 20px hsl(327, 98%, 17%), 0 0 1px hsl(327, 98%, 17%),
+    0 0 12px hsl(327, 98%, 17%);
+  font-family: "Dancing Script", cursive;
+  font-size: 4rem;
+}

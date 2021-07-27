@@ -1,0 +1,81 @@
+
+#barra {
+  padding: 2rem;
+  color: #ffffff;
+ background-image: linear-gradient(
+    to top,
+    hsla(0, 0%, 0%, 1),
+    hsla(327, 98%, 17%, 1)
+  );
+  font-family: "Kaushan Script", cursive;
+  size: 20px;
+  text-decoration: none;
+   }
+
+   #leyendafinal {
+     padding: 2rem;
+    color: #ffffff;
+   background-image: linear-gradient(
+      to bottom,
+      hsla(0, 0%, 0%, 1),
+      hsla(327, 98%, 17%, 1)
+    );
+    font-family: "Kaushan Script", cursive;
+    size: 20px;
+    text-decoration: none;
+     }
+
+p {
+  color: #ffffff;
+  font-family: "Kaushan Script", Courier;
+  size: 20px;
+
+}
+
+.secciones { 
+  padding: 1rem;
+  background-color: black;
+}
+
+.textoNeonRojo {
+  color: #ffffff;
+  text-shadow: 0 0 8px hsl(327, 98%, 17%), 0 0 2px hsl(327, 98%, 17%),
+    0 0 10px #d43f3a, 0 0 6px #d43f3a, 0 0 20px #d43f3a,
+    0 0 20px hsl(327, 98%, 17%), 0 0 1px hsl(327, 98%, 17%),
+    0 0 12px hsl(327, 98%, 17%);
+  font-family: "Dancing Script", cursive;
+  font-size: 3rem;
+}
+
+.caja {
+  width: 100%;
+  height: 100%;
+  filter: grayscale(100%);
+  transition: 1s ease-out;
+}
+
+.caja:hover {
+  filter: grayscale(0%);
+  transition: 1s ease-in;
+}
+
+.caja p {
+  top: 50%;
+  left: 10%;
+  position: absolute;
+  filter: opacity(0%);
+  transition: 0.5s;
+  background-color: hsla(0, 0%, 0%, 60%);
+}
+
+.caja:hover p {
+  filter: opacity(100%);
+  transition: 0.5s;
+  z-index: 3;
+}
+
+.requerido {
+  font-weight: 400;
+  font-size: 10px;
+}
+
